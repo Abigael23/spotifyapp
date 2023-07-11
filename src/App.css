@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+/* SIDEBAR CSS */
+.sidebardiv {
+  background-color: rgb(18, 18, 18);
+  padding-top: 15px;
+  padding-bottom: 7px;
+  margin-top: 6px;
+  margin-left: 10px;
+  border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidediv {
+  position: fixed;
+  /* height: 3000px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebarsmdiv {
+  background-color: rgb(36, 36, 36);
+  border-radius: 7px;
+  margin-top: 20px;
+  width: 85%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sidebardiv p {
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn1 {
+  border-radius: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* HOMEPG CSS */
+.homediv {
+  background-color: black;
+  height: 535px;
+  padding-top: 2px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  /* overflow-y: scroll; */
+}
+
+/* NAVBAR CSS */
+navbar {
+  /* color: #fff; */
+  position: fixed;
+  left: 26.2%;
+}
+
+.container-fluid {
+  position: fixed;
+  width: 72%;
+  left: 26.4%;
+  top: 8px;
+  background-color: rgb(18, 18, 18);
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  height: 70px;
+}
+
+/* COMPONENT1 */
+.divone {
+  /* position: relative; */
+  /* width: 72.85%; */
+  width: 71.95%;
+  height: 468px;
+  /* margin-left: 26.78%; */
+  margin-left: 26.42%;
+  margin-top: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(18, 18, 18);
+  /* background-color: blue; */
+  overflow-y: scroll;
+}
+
+/* ARTISTDIV */
+img {
+  height: 150px;
+}
+
+.divtwo {
+  background-color: rgb(32, 32, 32);
+  height: 245px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 25px;
+}
+
+/* APPCOMP */
+.body{
+  background-color: black;
+  margin-bottom: 3px;
+  /* height: fit-content; */
+}
+
+/* PLAYERCOMP */
+playerdiv{
+  position: fixed;
+}
+
+.font{
+  font-size: 25px;
 }
