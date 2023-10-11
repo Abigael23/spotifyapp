@@ -6,6 +6,7 @@
   margin-top: 6px;
   margin-left: 10px;
   border-radius: 10px;
+  /* font-size: 10px; */
 }
 
 .sidediv {
@@ -18,11 +19,12 @@
   border-radius: 7px;
   margin-top: 20px;
   width: 85%;
+  font-size: 10px;
 }
 
 .sidebardiv p {
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .btn1 {
@@ -40,9 +42,7 @@
 
 /* HOMEPG CSS */
 .homediv {
-  background-color: black;
   height: 535px;
-  padding-top: 2px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   /* overflow-y: scroll; */
@@ -53,6 +53,23 @@ navbar {
   /* color: #fff; */
   position: fixed;
   left: 26.2%;
+}
+.collapse{
+  display: flex;
+  justify-content: space-between;
+}
+.divsearch{
+  border: 1px;
+  border-radius: 50px;
+  padding-left: 10px;
+}
+.divsearch input{
+  border: none;
+  background: none;
+  outline: none;
+  color: grey;
+  width: 250px;
+  margin-left: 10px;
 }
 
 .container-fluid {
@@ -95,18 +112,33 @@ img {
   margin-left: 25px;
 }
 
-/* APPCOMP */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+button{
+  background: none;
+  color: #fff;
+}
+
+/* APPCOMP CSS */
 .body{
   background-color: black;
-  margin-bottom: 3px;
-  /* height: fit-content; */
+  padding-top: 2px;
 }
 
 /* PLAYERCOMP */
-playerdiv{
-  position: fixed;
+.playerdiv{
+  /* position: fixed; */
+  background-color: blue;
+  margin-top: -49px;
+  /* padding-top: 100px; */
 }
 
 .font{
-  font-size: 25px;
+  font-size: 38px;
+  text-align: center;
 }

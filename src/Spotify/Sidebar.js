@@ -1,5 +1,5 @@
 import React from 'react'
-// import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Sidebar() {
     return (
@@ -7,17 +7,27 @@ function Sidebar() {
             <div className='sidediv w-25'>
                 <div className='sidebardiv w-100 text-white'>
                     <p>
-                        {/* <Link className='nav-link' to={"/home"}> */}
-                            <i className='bi bi-house-door-fill'></i>
-                            Home
-                        {/* </Link> */}
+                        <Link className='nav-link' to={"/"}>
+                            <button>
+                                <i className='bi bi-house-door-fill'></i>
+                                <h6>Home</h6>
+                            </button>
+                        </Link>
                     </p>
+                    <div className='click'>
+                        <Link>
+                            <button>
+                                <h6>Click here</h6>
+                            </button>
+                        </Link>
+                    </div>
                     <p>
-                        {/* <i class="bi bi-code"></i> */}
-                        {/* <Link className='nav-link' to={"/search"}> */}
-                            <i className='bi bi-search'></i>
-                            Search
-                        {/* </Link> */}
+                        <Link className='nav-link' to={"/search"}>
+                            <button>
+                                <i className='bi bi-search'></i>
+                                <h6>Search</h6>
+                            </button>
+                        </Link>
 
                     </p>
                 </div>
